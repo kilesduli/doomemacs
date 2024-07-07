@@ -30,7 +30,8 @@
 ;; doom-editor.el
 (package! better-jumper :pin "47622213783ece37d5337dc28d33b530540fc319")
 (package! dtrt-indent :pin "339755e4fb5245862737babf7f2c1e3bae1c129c")
-(package! helpful :pin "4ba24cac9fb14d5fdc32582cd947572040e82b2c")
+(package! helpful
+  :recipe (:host github :repo "LemonBreezes/helpful" :branch "fix-scan-sexps-error"))
 (package! smartparens :pin "ab475c78916d7b1666a495e3fe9c54b250195637")
 (package! ws-butler :pin "e3a38d93e01014cd47bf5af4924459bd145fd7c4")
 
